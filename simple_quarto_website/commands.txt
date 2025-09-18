@@ -6,3 +6,20 @@
 	commands.txt
 
 提交为空，但是存在尚未跟踪的文件（使用 "git add" 建立跟踪）
+[main 1941dee] Lab3: site rendered, about+slides complete, navbar updated
+ Committer: Jiayuan Gong <andes@Jiayuan-MacBook-Air.local>
+您的姓名和邮件地址基于登录名和主机名进行了自动设置。请检查它们正确
+与否。您可以对其进行设置以免再出现本提示信息：
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+设置完毕后，您可以用下面的命令来修正本次提交所使用的用户身份：
+
+    git commit --amend --reset-author
+
+ 1 file changed, 8 insertions(+)
+ create mode 100644 simple_quarto_website/commands.txt
+failed to get: -128
+To https://github.com/jiayuangong/5000-lab-1.2.git
+   cdf15f2..1941dee  main -> main
