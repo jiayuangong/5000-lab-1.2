@@ -1,0 +1,110 @@
+---
+title: "DSAN-5000 Lab 3 — Project Home"
+author: "Jiayuan (Jay) Gong"
+format:
+  html:
+    toc: true
+    toc-location: left
+    number-sections: true
+    code-fold: false
+execute:
+  echo: false
+bibliography: reference.bib
+---
+
+# Introduction
+
+Welcome to my DSAN-5000 Lab 3 site. This page demonstrates required Quarto features in a clean, professional layout[^ack].
+
+Inline math example: the logistic function $\sigma(x)=\frac{1}{1+e^{-x}}$ appears frequently in data science.
+
+> “In God we trust; all others must bring data.” — *W. Edwards Deming*
+
+## Highlights (Bulleted List)
+
+- Reproducible site built with Quarto and Git.
+- Clean typography, sectioned content, and a working table of contents.
+- Illustrative figures, a professional embedded video, and a Mermaid diagram.
+- Proper use of relative paths for all assets under `images/`.
+
+## Two-Column Overview
+
+::: {.columns}
+::: {.column}
+**Purpose.** Provide a concise, professional landing page for Lab 3.  
+**Scope.** Demonstrate formatting, math, media embedding, and diagrams.  
+**Outcome.** A deployable website that showcases Quarto capabilities.
+
+**Key Notes.**
+- Use relative paths (e.g., `images/figure-01.png`).
+- Keep alt text and figure captions informative.
+- Prefer clear, concise academic tone.
+:::
+
+::: {.column}
+**Tech Stack.** Quarto, Markdown, Mermaid, LaTeX math.  
+**Workflow.** Author → Preview → Render → Commit → Push → Deploy.
+
+**Professionalism.**
+- Cite credible sources in later pages if needed.
+- Ensure accessibility (alt text, headings).
+- Keep filenames lowercase-with-dashes.
+:::
+:::
+
+# A Simple Table
+
+A compact Markdown table summarizing the sections:
+
+| Section        | Purpose                              | Done |
+|:---------------|:-------------------------------------|:----:|
+| Highlights     | Bullet list requirements              | ✅   |
+| Two-Column     | Demonstrate column layout             | ✅   |
+| Math           | Inline & block LaTeX                  | ✅   |
+| Media          | Images + Video + Mermaid              | ✅   |
+
+# Math
+
+The normal equation (OLS) in block form:
+
+$$
+\hat{\beta} \;=\; (X^{\mathsf T}X)^{-1}X^{\mathsf T}y
+$$
+
+# Images
+
+Figure 1 shows a IMAX scene; Figure 2 shows a coding scene.  
+
+![Figure 1. Attetion is all you need.](images/lab_fig-01.jpg){fig-align="center" fig-cap="Figure 1 . Attetion is all you need."}
+
+![Figure 2. A man is coding.](images/lab_fig-02.jpg){fig-align="center" fig-cap="Figure 2. A man is coding."}
+
+# Embedded Video
+<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%;">
+  <iframe src="https://www.youtube.com/embed/2ePf9rue1Ao"
+          title="A Professional Data/AI Talk"
+          style="position:absolute; top:0; left:0; width:100%; height:100%;"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+  </iframe>
+</div>
+
+
+# Mermaid Diagram
+
+A simple system flow using Mermaid:
+
+```{mermaid}
+graph TD
+  A[Author in Quarto] --> B[Preview Locally]
+  B --> C[Render to _site/]
+  C --> D[Commit & Push to GitHub]
+  D --> E[Deploy to GU Domains]
+  B -->|Fix issues| A
+```
+
+# References
+
+Modern natural language processing is heavily influenced by the Transformer architecture [@NIPS2017_3f5ee243].  
+Recent advancements such as [@deepseekai2025deepseekv3technicalreport] further demonstrate the ongoing progress in large-scale AI models.

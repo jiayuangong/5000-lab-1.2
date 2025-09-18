@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About This Project",
+    "section": "",
+    "text": "Data science combines mathematics, statistics, computer science, and domain knowledge.\nLorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About This Project",
+    "section": "",
+    "text": "Data science combines mathematics, statistics, computer science, and domain knowledge.\nLorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "objectID": "about.html#key-skills-highlighted",
+    "href": "about.html#key-skills-highlighted",
+    "title": "About This Project",
+    "section": "Key Skills Highlighted",
+    "text": "Key Skills Highlighted\n\nReproducible workflows\nData visualization\nCommunication and presentation\n\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# Simple data\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\n# Plot\nplt.figure(figsize=(6,4))\nplt.plot(x, y, label=\"sin(x)\")\nplt.title(\"Example Plot in about.ipynb\")\nplt.xlabel(\"x\")\nplt.ylabel(\"sin(x)\")\nplt.legend()\nplt.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DSAN-5000 Lab 3 — Project Home",
+    "section": "",
+    "text": "Welcome to my DSAN-5000 Lab 3 site. This page demonstrates required Quarto features in a clean, professional layout[^ack].\nInline math example: the logistic function \\(\\sigma(x)=\\frac{1}{1+e^{-x}}\\) appears frequently in data science.\n\n“In God we trust; all others must bring data.” — W. Edwards Deming\n\n\n\n\nReproducible site built with Quarto and Git.\nClean typography, sectioned content, and a working table of contents.\nIllustrative figures, a professional embedded video, and a Mermaid diagram.\nProper use of relative paths for all assets under images/.\n\n\n\n\n\n\nPurpose. Provide a concise, professional landing page for Lab 3.\nScope. Demonstrate formatting, math, media embedding, and diagrams.\nOutcome. A deployable website that showcases Quarto capabilities.\nKey Notes. - Use relative paths (e.g., images/figure-01.png). - Keep alt text and figure captions informative. - Prefer clear, concise academic tone.\n\nTech Stack. Quarto, Markdown, Mermaid, LaTeX math.\nWorkflow. Author → Preview → Render → Commit → Push → Deploy.\nProfessionalism. - Cite credible sources in later pages if needed. - Ensure accessibility (alt text, headings). - Keep filenames lowercase-with-dashes."
+  },
+  {
+    "objectID": "index.html#highlights-bulleted-list",
+    "href": "index.html#highlights-bulleted-list",
+    "title": "DSAN-5000 Lab 3 — Project Home",
+    "section": "",
+    "text": "Reproducible site built with Quarto and Git.\nClean typography, sectioned content, and a working table of contents.\nIllustrative figures, a professional embedded video, and a Mermaid diagram.\nProper use of relative paths for all assets under images/."
+  },
+  {
+    "objectID": "index.html#two-column-overview",
+    "href": "index.html#two-column-overview",
+    "title": "DSAN-5000 Lab 3 — Project Home",
+    "section": "",
+    "text": "Purpose. Provide a concise, professional landing page for Lab 3.\nScope. Demonstrate formatting, math, media embedding, and diagrams.\nOutcome. A deployable website that showcases Quarto capabilities.\nKey Notes. - Use relative paths (e.g., images/figure-01.png). - Keep alt text and figure captions informative. - Prefer clear, concise academic tone.\n\nTech Stack. Quarto, Markdown, Mermaid, LaTeX math.\nWorkflow. Author → Preview → Render → Commit → Push → Deploy.\nProfessionalism. - Cite credible sources in later pages if needed. - Ensure accessibility (alt text, headings). - Keep filenames lowercase-with-dashes."
+  },
+  {
+    "objectID": "slides/slides.html#visualization-examples",
+    "href": "slides/slides.html#visualization-examples",
+    "title": "DSAN-5000 Lab 3 — Mini Presentation",
+    "section": "Visualization Examples",
+    "text": "Visualization Examples"
+  },
+  {
+    "objectID": "slides/slides.html#python-demo",
+    "href": "slides/slides.html#python-demo",
+    "title": "DSAN-5000 Lab 3 — Mini Presentation",
+    "section": "Python Demo",
+    "text": "Python Demo\nThe following Python code cell is folded by default, but the output plot is shown.\n\n\nCode\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.linspace(0, 2*np.pi, 200)\ny = np.cos(x)\n\nplt.figure(figsize=(6,4))\nplt.plot(x, y, color=\"darkorange\", label=\"cos(x)\")\nplt.title(\"Cosine Function Example\")\nplt.xlabel(\"x\")\nplt.ylabel(\"cos(x)\")\nplt.legend()\nplt.grid(True)\nplt.show()\n\n\n\n\n\n\n\nVaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. 2017. “Attention Is All You Need.” In Advances in Neural Information Processing Systems, edited by I. Guyon, U. Von Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett. Vol. 30. Curran Associates, Inc. https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf."
+  }
+]
